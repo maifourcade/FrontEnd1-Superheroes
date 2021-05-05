@@ -1,0 +1,271 @@
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pcVector {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    bottom: 5px;
+    padding-left: 10px;
+}
+
+.discount {
+    background-color: #1CD1B0;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    padding: 10px 10px;
+    z-index: 2;
+}
+
+
+header {
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 70px;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+.navigator {
+    background-color: black;
+    text-align: right;
+    height: 20px;
+    padding: 10px 10px;
+    height: 1%;
+}
+
+.navigator a{
+    background-color: black;
+    color:white;
+    text-align: right;
+    padding: 0px 10px;
+    height: 20px;
+    text-decoration: none;
+}
+.navigator a:hover {
+    background-color: #5f686d;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: normal;
+    height: 84px;
+    padding: 10px 100px;
+    position: absolute;
+    top: 15%;
+}
+
+:root {
+    margin: 0 auto;
+    color: white;
+}
+
+.form-bg {
+    margin: 1% auto 1%;
+    background-color: #00669F;
+    border-radius: 49.0901px;
+    width: 60%;
+    height: 80%;
+    padding: 3% 3%;
+    box-sizing: border-box;
+    position: relative
+}
+
+form {
+    position: relative
+}
+
+main {
+    width: auto;
+
+}
+
+h3 {
+    font-family: Inter;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding-top: 0%;
+}
+
+p {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.fieldset {
+    display: inline-grid;
+    width: 45%;
+    margin: 2%;
+    align-items: flex-start;
+}
+
+.field {
+    width: 99%;
+    margin: 10px;
+}
+
+.description {
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 15.3407px;
+    box-sizing: border-box;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+}
+
+input {
+    border-radius: 15.3407px;
+    /* box-sizing: border-box; */
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    padding: 10px
+}
+
+.file {
+    border: 1.53407px solid rgba(0, 0, 0, 0.0);
+}
+
+select {
+    padding: 10px;
+    font-family: Roboto;
+}
+
+textarea {
+    padding: 10px
+}
+
+.submit {
+    background-color: #1CD1B0;
+    width: 50%;
+    font-family: Inter;
+    font-size: 20px;
+    border: 0px;
+    padding: 15px;
+    margin: 1% 25% auto;
+    transition: 0.5s;
+}
+
+a {
+    margin: 0%;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0%;
+}
+
+.terms {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+.label {
+    display: block;
+    left: 0;
+    width: unset;
+}
+
+p {
+    text-align: left;
+}
+
+.required::before {
+    content: "*"
+}
+
+#nombre:invalid {
+    border: 1.53407px solid #ff0000;
+}
+
+#nombre:valid {
+    border: 1.53407px solid #09ff00;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background: #d2fcff;
+    border: 1.53407px solid #AFF9FE;
+    outline: none;
+}
+
+
+input[type="submit"]:hover {
+    transform: scale(1.10);
+    color: white;
+    background: #001D2D;
+}
+
+@media screen and (max-width:768px) {
+    .fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0%;
+    }
+    #nombre {
+        width: 100%;
+    }
+    #date {
+        width: 100%;
+    }
+    hr {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .label {
+        display: block;
+        padding-left: 25%;
+    }
+
+    .habilities{
+        width: 100%;
+        justify-content: center
+    }
+    p {
+        text-align: center;
+        font-size: 1em;
+        font-weight: bold;
+    }
+    textarea {
+        width: 100%;
+    }
+    select{
+        width: 40%;
+    }
+    .submit{
+        margin-top: 5%;
+    }
+ }
+
+ footer {
+    background: #00669F;
+    height: 50px;
+    width: 100%;
+    bottom: -200px;
+    position: absolute;
+}
+
+.terms {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 15px;
+}
+
+ @media screen and (max-width:480px) {
+    .form-bg {
+        width: 100vw;
+    }
+ }

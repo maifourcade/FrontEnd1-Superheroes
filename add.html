@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card Super Heroes</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href="css/addstyle.css">
+
+</head>
+
+<body>
+
+
+  <div class="discount">20% de descuento en todos los productos!</div>
+
+  <header>
+    <img src="img/LogoMarket.png" alt="pcVector" class="pcVector"></img>
+    <h1>SuperTienda</h1>
+  </header>
+
+  <nav class="navigator">
+    <a href="index.html">Home</a>
+  </nav>
+
+  <main>
+    <div class="form-bg">
+
+        <div class="form">
+          <h3>¡Creá tu Superhéroe!</h3>
+  
+          <p>Creá tu personaje favorito completando las opciones:</p>
+  
+          <form action="#" method="GET">
+  
+            <div class="fieldset">
+  
+              <label for="nombre" class="required field name">Nombre</label>
+              <input required type="text" name="nombre" id="nombre" tabindex="1">
+  
+              <label for="date" class="required field">Fecha</label>
+              <input required type="date" name="date" id='date' tabindex="3">
+  
+              <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion" tabindex="5"
+                class="description"></textarea>
+  
+  
+            </div>
+  
+  
+            <div class="fieldset">
+  
+              <label for="specie" class="required field">Especie</label>
+              <select required name="specie" id="specie" tabindex="2">
+                <optgroup>
+                  <option value="-" invalid selected hidden>Seleccionar</option>
+                  <option value="Agua">Agua</option>
+                  <option value="Fuego">Fuego</option>
+                  <option value="Tierra">Tierra</option>
+                  <option value="Viento">Viento</option>
+                </optgroup>
+              </select>
+  
+              <p class="add">Agregar Foto</p>
+              <input type="file" name="foto" id="foto" tabindex="4" class="file">
+  
+              
+  
+              <div class="habilities">
+  
+                <p class="add">Poderes </p>
+  
+                <label for="volar" class="label">
+                  <input type="checkbox" name='volar' value='volar' id="volar" class="alternativas" tabindex="6"> Volar
+                </label>
+  
+                <label for="superinteligencia" class="label">
+                  <input type="checkbox" name='superinteligencia' id="superinteligencia" value='superinteligencia'
+                    tabindex="7"> Superinteligencia
+                </label>
+  
+                <label for="vistarayo" class="label">
+                  <input type="checkbox" name='vistarayo' id="vistarayo" value='vista de rayo laser' tabindex="8"> Vista de rayo láser
+                </label>
+  
+                <label for="fatwallet" class="label">
+                  <input type="checkbox" name='fatwallet' id="fatwallet" value="billetera gorda" tabindex="9"> Billetera
+                  gorda
+                </label>
+
+                <label for="manejoagua" class="label">
+                    <input type="checkbox" name='manejoagua' id="manejoagua" value="manejo del agua" tabindex="10"> Manejo del Agua
+                  </label>
+  
+                <hr>
+  
+                <p>Tipo de personaje</p>
+  
+                <label for="type" class="label">
+  
+                  <input type="radio" name='type' id="type" value='Heroes' tabindex="10"> Héroe / Heroina
+                </label>
+  
+  
+                <label for="villains" class="label">
+                  <input type="radio" name='type' id="villains" value='Vilanos' tabindex="11"> Villano / Villana
+                </label>
+  
+              </div>
+  
+            </div>
+  
+            <input type="submit" class="submit" value="Añadir" tabindex="12">
+
+          </form>
+        </div>
+      </div>
+    </main>
+</body>
+
+<footer>
+  <p class='terms'> Todos los derechos reservados a Maia Agustina Fourcade :)</p>
+</footer>
+
+</html>
